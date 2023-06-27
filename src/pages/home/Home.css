@@ -1,0 +1,141 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background-color: #161618;
+    min-height: 100vh;
+}
+
+.home-container .header {
+    font-weight: bold;
+    font-size: 36pt;
+    padding: 30px;
+    margin-top: 30px;
+    color: #86B049;
+}
+
+.home-container .body {
+    justify-items: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.home-container .form-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+}
+
+.home-container .form-container .header2 {
+    font-weight: bold;
+    font-size: 20pt;
+    color: white;
+    padding: 10px;
+}
+
+.home-container .form-container .form {
+    align-items: left;
+}
+
+.form-container .form .option-title {
+    margin-top: 15px;
+    font-weight: 900;
+    font-size: 22px;
+    color: #C8B88A;
+    justify-items: left;
+    padding: 10px;
+}
+
+.form-container .form .select-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.select-container .select-title {
+    font-weight: 600;
+    color: white;
+    font-size: 14pt;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.form-container .select {
+    padding: 6px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #161618;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-container .form .input-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.input-container .input-title {
+    font-weight: 600;
+    color: white;
+    font-size: 14pt;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.form-container .input {
+    padding: 6px 20px;
+    background-color: #161618;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 500;
+    color: white;
+    border-bottom: 3px solid #CFCECA;
+    padding-bottom: 5px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-container .submit-button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 16px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    background-color: #213502;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.form-container .submit-button:hover {
+    background-color: #BFA8BB;
+}
+
+.form-container .save-button {
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 16px 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    background-color: #213502;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+
